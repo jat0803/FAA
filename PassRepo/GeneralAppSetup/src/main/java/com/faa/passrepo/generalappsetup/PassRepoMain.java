@@ -10,15 +10,8 @@ public class PassRepoMain {
         System.out.println("Dodo's Conundrum");
         System.out.println("Something significant...it just is.");
 
-        String test = Login.giveMeAString();
+        Login loginWindow = new Login();
 
-        System.out.println("test string from Login class: " + test);
-
-        return;
     }
 
-    public static String test () {
-        String answer = "Hi I'm PassRepoMain.test";
-        return answer;
-    }
 }
